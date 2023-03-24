@@ -1,0 +1,18 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Applausus
+id: MH 144
+genre: applausus
+scoring: T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 330
+    date: 1770-11-14
+    rism: 456009345
+    url: https://mdz-nbn-resolving.de/details:bsb00084926
+    license: CC BY-NC-SA 4.0
+    principal: true
+imslp:
