@@ -170,3 +170,19 @@ SinfoniaViolinoI = {
     <g h, d,>4 r\fermata \bar ":|." %164 finis
   }
 }
+
+QuidVideoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuidVideo
+    R1*12 %12
+    \tempoQuidVideoB g2\fE h'
+    c1~\p
+    c %15
+    a'
+    h,!
+    r4 <d f> <e h e,> r
+    R1*3 %21
+    R1\fermata \bar "|."
+  }
+}

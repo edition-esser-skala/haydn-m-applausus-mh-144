@@ -170,3 +170,19 @@ SinfoniaViola = {
     g r\fermata \bar ":|." %164 finis
   }
 }
+
+QuidVideoViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoQuidVideo
+    R1*12 %12
+    \tempoQuidVideoB g2\fE d'
+    c1~\p
+    c %15
+    f
+    d
+    r4 g gis r
+    R1*3 %21
+    R1\fermata \bar "|."
+  }
+}

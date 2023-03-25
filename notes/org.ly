@@ -337,3 +337,57 @@ SinfoniaBassFigures = \figuremode {
   r
   r %164 finis
 }
+
+QuidVideoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoQuidVideo
+    g'2\pE r4 g,8 g'
+    h,2 r4 h8 d
+    gis,1~
+    gis2 r4 a8 a'
+    c,2 d~ %5
+    d r4 e8 d
+    c1
+    h
+    r4 g'8 fis e2
+    a1 %10
+    a,~
+    a
+    \tempoQuidVideoB g2\fE f'!
+    e1~\pE
+    e %15
+    f
+    f,
+    r4 g gis2~
+    gis1~
+    gis2 a~ %20
+    a1
+    r4 h e,2\fermata \bar "|." %22 finis
+  }
+}
+
+QuidVideoBassFigures = \figuremode {
+  r1
+  <6>2. <\l>8 \once \bassFigureExtendersOn q
+  <6>1
+  r
+  <6> %5
+  <4\+ 3>2. <_+>4
+  <6>1
+  <[5\+] _+>
+  r4 <6>8 <6\\> r2
+  r1 %10
+  <6\\>
+  r
+  r2 <2>
+  <6>1
+  r %15
+  r
+  <4[!] 2>
+  r4 <[7]> <6>2
+  r1
+  r %20
+  r2 <4\+ 2>
+  r4 <[5\+ _+]>2. %22 finis
+}
