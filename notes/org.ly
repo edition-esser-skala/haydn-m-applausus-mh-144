@@ -703,3 +703,33 @@ ViveDecusBassFigures = \figuremode {
   q4 <4> <_+> %150
   r2. %151 finis
 }
+
+NuncOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoNunc
+    cis1\pE~
+    cis
+    d~
+    d2 r4 e
+    f2 r4 f16( a) g( b) %5
+    a4 r r2
+    r r4 b,16( d) c( es)
+    d4 r r b'16( d) c( es)
+    d4 r r c
+    f, r r2\fermata \bar "|." %10 finis
+  }
+}
+
+NuncBassFigures = \figuremode {
+  <6>1
+  <7->
+  r
+  <[6!] 4\+ 2>2. <5- [_!]>4
+  <_!>2.. <6 [_-]>8 %5
+  <6>1
+  r2.. <6 [_-]>8
+  <6->2.. <6 [_-]>8
+  <6[-]>2. <_!>4
+  r1 %10 finis
+}

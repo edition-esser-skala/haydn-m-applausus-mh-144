@@ -93,52 +93,83 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Aria" "Vive Decus Mæcenatum"
+  %   \addTocLabel "vivedecus"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     indent = 1.5\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ViveDecusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ViveDecusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ViveDecusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Damon"
+  %           \new Voice = "Soli" { \dynamicUp \ViveDecusSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \ViveDecusSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ViveDecusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ViveDecusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Aria" "Vive Decus Mæcenatum"
-    \addTocLabel "vivedecus"
+    \section "4" "Recicativo" "Nunc Galathea"
+    \addTocLabel "nunc"
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-      indent = 1.5\cm
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #3
+      indent = 2\cm
     }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \ViveDecusViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \ViveDecusViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \ViveDecusViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Damon"
-            \new Voice = "Soli" { \dynamicUp \ViveDecusSoli }
+            \set Staff.instrumentName = \markup \center-column { "Galathea" "Damon" }
+            \new Voice = "Soli" { \dynamicUp \NuncSoli }
           }
-          \new Lyrics \lyricsto Soli \ViveDecusSoliLyrics
+          \new Lyrics \lyricsto Soli \NuncSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ViveDecusOrgano
+            \NuncOrgano
           }
         >>
-        \new FiguredBass { \ViveDecusBassFigures }
+        \new FiguredBass { \NuncBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

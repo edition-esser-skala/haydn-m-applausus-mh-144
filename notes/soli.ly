@@ -280,3 +280,32 @@ ViveDecusSoliLyrics = \lyricmode {
   o -- pti -- %150
   me. %151 finis
 }
+
+NuncSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoNunc
+    a'4^\Damon a8 gis a a r16 e e f
+    g8. g16 g4 b8 b b a
+    f f r a d d16 d d8 h
+    gis gis16 gis gis8 a a e r4
+    \clef "treble_8" a4^\Galathea a8 b c16 c c8 r4 %5
+    r r8 c es,4 es
+    es'8 es es f d d r4
+    r2 f8 b, r4
+    r8 f' e! f f c r4
+    R1\fermata \bar "|." %10 finis
+  }
+}
+
+NuncSoliLyrics = \lyricmode {
+  Nunc, Ga -- la -- the -- a, ex -- cel -- so
+  Prae -- su -- li gra -- tum pro -- me
+  me -- los, ut Cha -- ri -- tes su -- ae
+  e -- de -- re vo -- ta que -- ant.
+  Ast, Da -- mon, ve -- re -- or_– %5
+  ne post -- haec
+  car -- pas vi -- le car -- men:
+  E -- sto
+  ten -- ta -- re li -- cet. %9 finis
+}
