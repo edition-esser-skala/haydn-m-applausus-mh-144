@@ -186,3 +186,157 @@ QuidVideoViola = {
     R1\fermata \bar "|."
   }
 }
+
+ViveDecusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoViveDecus
+    r8 e\fE e e e e
+    r f f f f f
+    r f f f d h
+    r e e e e e
+    r g g g g g %5
+    r a a a a a
+    r d, d d h h
+    r a a a a a
+    r g' g g g g
+    f f a a a a %10
+    d, d d d a' a
+    g g g g g g
+    c,4(\p d e)
+    g,8( d') d-! d-! d-! d-!
+    c4( d e) %15
+    g,8( h) h-! h-! h-! h-!
+    c\f c c c c c
+    f f f f a a
+    g g g g g g
+    c,4 r r %20
+    r8 g'\p g g g g
+    r f f f f f
+    r h, h h h h
+    r g g g e'16 d c h
+    c8 c c c c c %25
+    f f f f f f
+    g g g g g g
+    g4 g\f g
+    g c,\p c
+    h h h %30
+    a a a
+    g g a
+    h h h
+    c c c
+    c c cis %35
+    d d8\f fis a c,
+    h4 g\p g'
+    r a, a
+    d g, g'
+    r a, a %40
+    d r r
+    R2.
+    r4 d c
+    h r r
+    R2.*2 %46
+    h8\f h h h g g
+    e' e e e e e
+    a, a a a e' e
+    d d fis fis fis e %50
+    d d fis fis a a
+    g h, e4 d
+    g,(\p a) h
+    c8 a'\f a a a a
+    g h, c e d c %55
+    h4 r r
+    r8 d\p d d d d
+    r c c c c c
+    r d d d d d
+    r d d d h16 a g fis %60
+    g8 g g g g g
+    c c c c c c
+    d d d d d d
+    d4 d\f d
+    d r r %65
+    R2.*2
+    g,2.~\p
+    g
+    gis~ %70
+    gis
+    a4 r r
+    a r r
+    d r r
+    d r r %75
+    g,! r r
+    g r r
+    c r r
+    c r r
+    f r r %80
+    e r r
+    d r r
+    h r r
+    g r r
+    c r r %85
+    R2.
+    r8 c\f e c e c
+    f f f f f fis
+    g g g g g g
+    g4 r r %90
+    g,8(\p d') d-! d-! d-! d-!
+    c4 r r
+    g8( h) h-! h-! h-! h-!
+    c4 r r
+    r8 f f f f f %95
+    r f f f f f
+    r c c c c c
+    r c c c c c
+    r d d d d d
+    r d d d d d %100
+    c4 r r
+    R2.*3
+    g8\mfE g g g a a %105
+    fis\ff fis g g g g
+    c e e e e e
+    f f a a a a
+    d, d d d a' a
+    g g g g g g %110
+    c,4(\p d e)
+    g,8( d') d-! d-! d-! d-!
+    c4( d e)
+    g,8( h) h-! h-! h-! h-!
+    c\f c c c c c %115
+    f f f f a a
+    g g g g g g
+    g c, c c f16 g a h
+    c8 c, c c f16 g a h
+    c8 c c c h h %120
+    c4\fermata e,8. c16 g'8. e16
+    b'4 e,8. f16 g8. b,16
+    a4 c\p c~
+    c c c~
+    c c c~ %125
+    c a a~
+    a a a~
+    a a a~
+    a a a~
+    a a a~ %130
+    a d'8 d d d
+    d4 gis,,8 gis gis gis
+    gis4 d''8 d d d
+    d4 gis,,8 gis gis gis
+    gis4 gis'8(\f e) a( gis) %135
+    a4 r8 a-!\pE c-! a-!
+    e4. e8-! a-! e-!
+    c4. c8 e c
+    a4. a8 c a
+    d4 e e %140
+    a, a'8.\f e16 c'8. a16
+    e'4 r r
+    R2.
+    a,4.\p a8-! c-! a-!
+    e4. e8 a e %145
+    c4. c8 e c
+    a4. a8 c a
+    d4 e e
+    a, c8.\f a16 e'8. c16
+    a'4 e\pp e, %150
+    a r r \markDaCapo \bar "||" %151 finis
+  }
+}

@@ -391,3 +391,315 @@ QuidVideoBassFigures = \figuremode {
   r2 <4\+ 2>
   r4 <[5\+ _+]>2. %22 finis
 }
+
+ViveDecusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoViveDecus
+    r8 c\fE c c c c
+    r d d d d d
+    r g, g g g g
+    r c c c c c
+    r e e e e e %5
+    r f f f f f
+    r g g g g g
+    r a a a a a
+    r e e e e e
+    f f f f f f %10
+    f f f f f fis
+    g g g g g g
+    g4\p r r
+    g g g
+    g r r %15
+    g g g
+    c,8\f c d d e e
+    f f f f f f
+    g g g g g g
+    c,4 r r %20
+    r8 c\p c c c c
+    r d d d d d
+    r g, g g g g
+    r c c c c c
+    r c c c c c %25
+    f f f f f f
+    g g g g g g
+    c,4 c'\f g
+    c, c\p c
+    h h h %30
+    a a a
+    g g a
+    h h h
+    c c c
+    c c cis %35
+    d d8\f fis a c,
+    h4 g\p g'
+    r d c
+    h g g'
+    r d c %40
+    h g' g,
+    c a h
+    c d d
+    e r c
+    d fis g8 g,\f %45
+    h c d d d d
+    g, g g g h h
+    c c c c c c
+    c c c c c cis
+    d d d d d e %50
+    fis fis d d fis fis
+    g g c, c d d
+    h'4(\p a) g
+    d d8\f d d d
+    e e c c d d %55
+    g,4 r r
+    r8 g\p g g g g
+    r a a a a a
+    r fis fis fis fis fis
+    r g g g g g %60
+    r g g g g g
+    c c c c c c
+    d d d d d d
+    g,4 g'\f d
+    g, r r %65
+    g\p r r
+    g r r
+    g r r
+    g r r
+    gis r r %70
+    gis r r
+    a r r
+    r8 a-! c-! a-! c-! a-!
+    r d-! f-! d-! f-! d-!
+    r d f d f d %75
+    r g, h g h g
+    r g h g h g
+    r c e c e c
+    r c e c e c
+    r f a f a f %80
+    r e g e g e
+    r d f d f d
+    r h d h d h
+    r g h g h g
+    r c c d e c %85
+    a' f g f g g,
+    c c\f e c e c
+    f f f f f fis
+    g g g g g g
+    g4 r r %90
+    g\p g g
+    g r r
+    g g g
+    c, e c
+    f f f %95
+    f f f
+    e e e
+    e e e
+    d d d
+    g, g g %100
+    c c' c,
+    f f8 g a4
+    f g g
+    a r f\mf
+    g8 g g g a a %105
+    fis\ff fis g g g g
+    c, c c c c c
+    f f f f f f
+    f f f f f fis
+    g g g g g g %110
+    g4\p r r
+    g g g
+    g r r
+    g g g
+    c,8\f c d d e e %115
+    f f f f f f
+    g g g g f f
+    e e e e f f
+    e e e e f f
+    e e f f g g %120
+    c,4\fermata e8.-\unisonoE c16 g'8. e16
+    b'4 e,8. f16 g8. b,16
+    a4 r r
+    g\p r r
+    c r r %125
+    f, r r
+    f' r r
+    e r r
+    a, r r
+    d r r %130
+    d r r
+    f r r
+    d r r
+    f r r
+    e\f r r %135
+    a r8 a-!\p c-! a-!
+    e4. e8-! a-! e-!
+    c4. c8 e c
+    a4. a8 c a
+    d4 e e %140
+    a, a'8.\f e16 c'8. a16
+    e'4 r r
+    R2.
+    a,4.\p a8-! c-! a-!
+    e4. e8 a e %145
+    c4. c8 e c
+    a4. a8 c a
+    d4 e e
+    a, c8.\f a16 e'8. c16
+    a'4 e\pp e, %150
+    a r r \markDaCapo \bar "||" %151 finis
+  }
+}
+
+ViveDecusBassFigures = \figuremode {
+  r2.
+  <7>4 <6>2
+  <7>2.
+  <9 4>4 <8 3>2
+  <6>2. %5
+  q2 r8 <5>
+  <8>2 <7>4
+  <6 4> <5 3>2
+  <6>2.
+  <5>4 <6>2 %10
+  <\t> r8 <7>
+  <6 4>4 <5 3>2
+  <6 4>2.
+  <7 5>
+  <6 4> %15
+  <7 5>
+  r4 <7> <6>
+  <5>2 <6>4
+  <6 4> <5 \t> <\t 3>
+  r2. %20
+  r
+  <7>4 <6>2
+  <7>2.
+  <9 4>4 <8 3>2
+  r2. %25
+  <7>4 <6>2
+  <8> <7>4
+  r2 <7>4
+  r2.
+  <6> %30
+  <6\\>
+  <4>4 <3> <6\\>
+  <6>2.
+  <8>2 <7 5\+>4
+  <\t \t> <6> <7!> %35
+  <_+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <6>2.
+  r4 <7 _+> <4\+ 2>
+  <6>2.
+  r4 <7 _+> <4\+ 2> %40
+  <6>2.
+  <9>4 <5>8 <6\\> <6>4
+  r <6 4> <7 3>
+  r2.
+  <7 _+>4 <6 5>2 %45
+  <6>8 <5> <6 4>4 <5 3>
+  r2 <6>4
+  <5> <6>2
+  <\t> r8 <7>
+  <_+>2. %50
+  <6>2 <5!>4
+  r <6 5> <_+>
+  <6> <6\\>2
+  <7 _+>2.
+  r2 <_+>4 %55
+  r2.
+  r
+  <7>4 <6\\>2
+  <6 5>2.
+  <9 4>4 <8 3>2 %60
+  r2.
+  <7>4 <8>8 <7> <6> <5>
+  <8 _+>2 <7 \t>4
+  r2 <7 _+>4
+  r2. %65
+  r
+  <7!>
+  <\t>4 <6 4>2
+  <\t \t>2.
+  <6>2. %70
+  <\t>2 <5>4
+  r2.
+  r2 <5!>8 <\t>
+  r2.
+  r2 <5>8 <\t> %75
+  <7>2.
+  r2 <5>8 <\t>
+  r2.
+  r2 <5->8 <\t>
+  r2. %80
+  <6>
+  r
+  <6 5>
+  <7>
+  r %85
+  <6 4>8 <\t \t> <6 4>4 <5 3>
+  r2 <6 5->4
+  <5> <6> r8 <7>8
+  <6 4>4 <5 3>2
+  <6 4>2. %90
+  <7 5>
+  <6 4>
+  <7 5>
+  r2 <7->4
+  r2. %95
+  r
+  <6>
+  <\t>
+  <6>
+  <7> %100
+  <4>4 <3>2
+  <9 7>4 <8 6>8 <7 5> <5>4
+  <6> <6 4> <5 3>
+  r2 <6>4
+  <8>4. <7> %105
+  <7>4 <6 4> <5 3>
+  r2.
+  <5>4 <6>2
+  <\t> r8 <7>
+  <6 4>4 <5 3>2 %110
+  <6 4>2.
+  <7 5>
+  <6 4>
+  <7 5>
+  r4 <7> <6> %115
+  <5>2 <6>4
+  <6 4> <5 \t> <2>
+  <6>2.
+  q
+  q4 <6 5>2 %120
+  r2.
+  r
+  r
+  <6 4 _->
+  <7-> %125
+  r
+  <6>
+  <6\\ 4 3>
+  <7 _+>
+  r %130
+  <4\+ 3>
+  <4 2\+>
+  <4\+ 3>
+  <4 2\+>
+  <_+> %135
+  <8 3>2. \bassFigureExtendersOn
+  q
+  q
+  q2 q8 q \bassFigureExtendersOff
+  r4 <6 4> <5 _+> %140
+  r4 <1>8. q16 q8. q16
+  q2.
+  r
+  <8 3>2. \bassFigureExtendersOn
+  q %145
+  q
+  q2 q8 q \bassFigureExtendersOff
+  r4 <6 4> <5 _+>
+  r4 <1>8. q16 q8. q16
+  q4 <4> <_+> %150
+  r2. %151 finis
+}

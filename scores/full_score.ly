@@ -45,14 +45,62 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Recitativo" "Quid video"
+  %   \addTocLabel "quidvideo"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuidVideoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuidVideoViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuidVideoViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Amor vel" "Galathea" " " "Genius vel" "Damon" }
+  %           \new Voice = "Soli" { \dynamicUp \QuidVideoSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \QuidVideoSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuidVideoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuidVideoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Recitativo" "Quid video"
-    \addTocLabel "quidvideo"
+    \section "3" "Aria" "Vive Decus Mæcenatum"
+    \addTocLabel "vivedecus"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
       systems-per-page = #2
-      indent = 2\cm
+      indent = 1.5\cm
     }
     \score {
       <<
@@ -61,36 +109,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \QuidVideoViolinoI
+              \ViveDecusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \QuidVideoViolinoII
+              \ViveDecusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuidVideoViola
+            \ViveDecusViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Amor vel" "Galathea" " " "Genius vel" "Damon" }
-            \new Voice = "Soli" { \dynamicUp \QuidVideoSoli }
+            \set Staff.instrumentName = "Damon"
+            \new Voice = "Soli" { \dynamicUp \ViveDecusSoli }
           }
-          \new Lyrics \lyricsto Soli \QuidVideoSoliLyrics
+          \new Lyrics \lyricsto Soli \ViveDecusSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuidVideoOrgano
+            \ViveDecusOrgano
           }
         >>
-        \new FiguredBass { \QuidVideoBassFigures }
+        \new FiguredBass { \ViveDecusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

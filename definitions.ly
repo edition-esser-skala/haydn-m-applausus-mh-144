@@ -13,6 +13,7 @@ Damon = \markup \remark "Damon"
 tempoSinfonia = \tempoMarkup "Allegro molto"
 tempoQuidVideo = \tempoMarkup "[Tempo deest]"
   tempoQuidVideoB = \tempoMarkup "Andante"
+tempoViveDecus = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

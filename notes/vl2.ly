@@ -186,3 +186,161 @@ QuidVideoViolinoII = {
     R1\fermata \bar "|."
   }
 }
+
+ViveDecusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoViveDecus
+    c4.\fE e8 g c
+    c4\trill h f16 e d c
+    h4. d16 f h8 d
+    d4\trill c g16 f e d
+    c4. e16 g c8 e %5
+    a,4. d16 f a8 a,
+    g g16 a h8 h16 c d8 d,
+    d4 c r
+    c'16 d c h c d e f g e c g
+    a8 h16 cis d cis d e f e f g %10
+    a4 a,16 g f g f e d e
+    e4\trill d r
+    e(\p d c)
+    h8( f') f-! f-! f-! f-!
+    e4( d c) %15
+    h8( d) d-! d-! d-! d-!
+    e16\f g f e f g a h c d e c
+    a c h a h c d c d e f d
+    g,8 c c4 h\trill
+    c8 f, e d c h %20
+    c e\p e e e e
+    r f f f f16 e d c
+    h8 f' f f f f
+    f4\trill e g16 f e d
+    c8 g' g g g g %25
+    a a d c h a
+    g g a a h h
+    c4 e,16\f g c e d f, e d
+    e8 g\p g g g g
+    r g g g g g %30
+    r c c c c c
+    r g h,16 d c h c e d c
+    d8 g g g g g
+    r g g g gis gis
+    r gis a a e e %35
+    r d'\f d, fis a c,
+    h4 h'2\p
+    a,4 c' fis,
+    g h2
+    a,4 c' fis, %40
+    g, h' g
+    e4. fis8 g4
+    g g( fis)
+    g8 e' e e e e
+    c c a a g g\f %45
+    g g g g fis fis
+    g16 a g fis g a h c d h g d
+    e8 fis16 gis a gis a h c h c d
+    e4 e,16 d c d c h a h
+    a4 d'16 cis d e fis e fis g %50
+    a g fis g fis e d e d c h a
+    d,8 g g4 fis
+    R2.
+    r8 fis'\f fis fis fis fis
+    g g e c d, fis' %55
+    g g, d c h a
+    g h\p h h h h
+    r c c c c16 h c h
+    a8 c c c c c
+    c4\trill h d16 c h a %60
+    g8 d' d d d d
+    e e e e e e
+    d d e e fis fis
+    g4 h,16\fE d g h a c, h a
+    h8 g-!\p h-! g-! h-! g-! %65
+    r g-! h-! g-! h-! g-!
+    r g' h g h g
+    r g c g c g
+    r e c' e, c' e,
+    r e h' e, h' e, %70
+    r e h' e, h' e,
+    r e\f c a c a
+    c'4 c,\p c
+    d'-! d, d
+    d'-! d, d %75
+    d' h, h
+    d' h, h
+    c' c, c
+    e' e, e
+    c' c, c %80
+    c' e, c
+    d' d, d
+    d' d, d
+    d' d, d
+    g, g'2 %85
+    f4 e( d)
+    c c\f g'
+    f16 a h cis d e f g a8 e,
+    e4\trill d r
+    R2. %90
+    h8(\p f') f-! f-! f-! f-!
+    e4 r r
+    g,8( d') d-! d-! d-! d-!
+    c e g g e e
+    r a a a a a %95
+    r a a a a a
+    r g g g g g
+    r g g g g g
+    r f f f f f
+    r f f f f f %100
+    r g g( c) e4~
+    e d c
+    d c( h)
+    c8 f\mf f f f f
+    d, d d d c c %105
+    c\ff c' c c h h
+    c16 d c h c d e f g e c g
+    a8 h16 cis d cis d e f e f g
+    a g f g f e d e d c h c
+    c4\trill h r %110
+    e,(\p d c)
+    h8( f') f-! f-! f-! f-!
+    e4( d c)
+    h8( d) d-! d-! d-! d-!
+    e16\f g f e f g a h c d e c %115
+    a c h a h c d c d e f d
+    g,8 c c4 h\trill
+    c16 e d c c' h a g a f e d
+    g e d c c' h a g a f e d
+    g e d c d2\trill %120
+    c4\fermata e,8. c16 g'8. e16
+    b'4 e,8. f16 g8. b,16
+    a4 c'\p c~
+    c c-! c~
+    c8 b a( b) c( b) %125
+    a4-! a-! a~
+    a a a~
+    a a a~
+    a8 g f( g) a( g)
+    f4 f f~ %130
+    f f'8 f f f
+    f4 h,,!8 h h h
+    h4 f''8 f f f
+    f4 h,,8 h h h
+    h4 h'8-!\f h( c d) %135
+    c c-!\p e-! c-! a4~
+    a8 a-! c-! a-! e4~
+    e8 e a e c4~
+    c8 c e c a4~
+    a8 d' \slurDashed c( a) h( gis) \slurSolid %140
+    a4 a8.\f e16 c'8. a16
+    e'4 e,8-!\p fis-! gis-! a-!
+    h-! d-! \parOn c-\parenthesize-! h-! a-! gis
+    \parOff a-\parenthesize-! c-! e-! c-! a4~
+    a8 a c a e4~ %145
+    e8 e a e c4~
+    c8 c e c a4~
+    a8 d' c( a) h( gis)
+    a4 c,8.\f a16 e'8. c16
+    a'8 a,\pp a a gis gis %150
+    a4 r r \markDaCapo \bar "||" %151 finis
+  }
+}
