@@ -18,6 +18,7 @@ tempoNunc = \tempoMarkup "[Tempo deest]"
 tempoSicut = \tempoMarkup "Allegretto"
 tempoGratae = \tempoMarkup "[Tempo deest]"
   tempoGrataeB = \tempoMarkup "Andante"
+tempoExurge = \tempoMarkup "Presto"
 
 
 \include "notes/vl1.ly"

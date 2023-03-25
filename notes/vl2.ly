@@ -565,3 +565,113 @@ GrataeViolinoII = {
     r4 e fis r\fermata \bar "." %8 finis
   }
 }
+
+ExurgeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \tempoExurge
+    d8\fE fis16 d a' fis
+    d'8 a16 fis d' a
+    fis'8 d16 a fis' d
+    a'8 r fis-!
+    g-! \tuplet 3/2 8 {  e16 d cis h[ a g] } %5
+    fis8[ r fis']-!
+    g-! \tuplet 3/2 8 {  e16 d cis h[ a g] }
+    fis8[ r d']
+    h' \tuplet 3/2 8 { h16 a g fis[ e d] }
+    cis8 \tuplet 3/2 8 { e16 d cis h[ a g] } %10
+    fis16.[ d'32] e,8 cis'
+    d16 fis a, d fis, a
+    d,8 fis16 d a' fis
+    d' a a' fis e d
+    g fis e d cis d %15
+    e fis g fis e d
+    cis d e a, cis, e
+    e cis d fis a fis
+    d'8 d, fis'
+    gis, e e %20
+    e cis cis'16([ e)]
+    gis,8 e e
+    e cis r
+    c16(\p a) c( a) c( a)
+    e'( h) d( c) d( h) %25
+    c( a) c( a) c( a)
+    e'( h) d( c) d( h)
+    c( a) c( a) c( a)
+    h8( gis) r
+    h''16-!\f gis-! e-! d-! cis!-! a-! %30
+    fis h e, a e gis
+    a a' a a a a
+    a, a' a a a e
+    fis d cis a' h, gis'
+    a,8 r cis-! %35
+    d-! \tuplet 3/2 8 { h16 a gis fis[ e d] }
+    cis8[ r cis']-!
+    d-! \tuplet 3/2 8 { h16 a gis fis[ e d] }
+    cis8[ r a']
+    fis' \tuplet 3/2 8 { fis16 e d cis[ h a] } %40
+    gis8 \tuplet 3/2 8 { h'16 a gis fis[ e d] }
+    cis16.[ a'32] h,8 gis'
+    a,8 r r
+    a'16 e cis a e' g,!
+    fis8 r r %45
+    a'16 fis d a fis d
+    a'8 e' d
+    d cis16 a cis e
+    a8 r r
+    r16 a,,\p d fis a8 %50
+    r16 d, fis a d8
+    r16 a, cis e g8
+    r16 e g e e'8
+    r16 fis, d'( h) d( d,)
+    d8 cis16( h) h( a) %55
+    a8 r16 cis'\f cis cis
+    d a a a a a
+    g d' d d d d
+    d h h h h h
+    a8 r fis'-! %60
+    g-! \tuplet 3/2 8 { e16 d cis h[ a g] }
+    fis8[ r \parOn fis']-\parenthesize-!
+    \parOff g-\parenthesize-! \tuplet 3/2 8 { e16 d cis h[ a g] }
+    fis8[ r \parOn fis']-\parenthesize-!
+    \parOff g-\parenthesize-! \tuplet 3/2 8 { e16 d cis h[ a g] } %65
+    fis8 \tuplet 3/2 8 { fis'16[ g a] d, e fis }
+    \tuplet 3/2 8 { g[ a h] } fis,-! d'-! e,-! cis'-!
+    d-! fis-! a-! fis-! d-! a-!
+    h g a fis' d fis
+    a fis d a fis d %70
+    h' g a fis' d fis
+    a fis d a fis d
+    d8-! fis-! r
+    f16(\p d) f( d) f( d)
+    a'( e) g( f) g( e) %75
+    f( d) f( d) f( d)
+    a'( e) g( f) g( e)
+    f( d) f( d) f( d)
+    cis8 r16 cis'\f cis cis
+    d a a a a a %80
+    g d' d d d d
+    d h h h h h
+    a8 <a a'>[ q]
+    q q q
+    q q q %85
+    q q q
+    q q q
+    q q q
+    q \tuplet 3/2 8 { fis'16[ g a] fis g a }
+    \tuplet 3/2 8 {  g[ a h] } fis,-! d'-! e,-! cis'-! %90
+    d-! fis-! d-! a-! fis-! d-!
+    h' d, g h a fis
+    g e e' g, fis d'
+    h g fis a cis, e
+    d fis a d fis a %95
+    h d, g h a fis
+    g e a g fis a
+    h, g' a, fis' e, cis'
+    d8 d16 d, fis a
+    d8 <fis a, d,> <a a, d,> %100
+    <fis a, d,> d16 d, fis a
+    d8 <fis a, d,> <a a, d,>
+    <fis a, d,>4 r8\fermata \bar "|." %103 finis
+  }
+}

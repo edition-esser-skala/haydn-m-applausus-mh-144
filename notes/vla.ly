@@ -554,3 +554,113 @@ GrataeViola = {
     r4 a, a r\fermata \bar "|." %8 finis
   }
 }
+
+ExurgeViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/8 \tempoExurge
+    fis8\fE r r
+    fis r r
+    d r r
+    fis d fis
+    e cis e %5
+    fis d fis
+    e cis e
+    fis d fis
+    d[ r h']
+    e,[ r e] %10
+    d h a
+    a4 r8
+    d fis a
+    d, d d
+    e e e %15
+    a,4 r8
+    a a' a,
+    d fis16 d a' fis
+    d'8 d, r
+    r h h %20
+    a a r
+    r h h
+    a a r
+    a4.\p
+    gis %25
+    a
+    gis
+    a
+    e4 r8
+    e'\fE e a %30
+    d, e e
+    fis fis, fis'16 e
+    d e fis gis a8
+    d, e e
+    cis a cis %35
+    h gis h
+    cis a cis
+    h gis h
+    cis a cis
+    a[ r fis'] %40
+    h,[ r h']
+    a fis e
+    a, cis e
+    cis a r
+    d fis a %45
+    d d, r
+    cis cis d
+    a' a e
+    cis r r
+    fis4.\p %50
+    d
+    e
+    cis
+    d8 g, gis
+    a a a %55
+    a a'\f g!
+    fis fis fis
+    g g g
+    gis gis gis
+    a[ r d,] %60
+    cis a' cis,
+    d fis d
+    cis a' cis,
+    d fis d
+    cis a' cis, %65
+    d a' h
+    g a a,
+    d d16 fis a d
+    g,8 d r
+    r d16 fis a d %70
+    g,8 d r
+    r d16 fis a d
+    g,8 d r
+    d4.\p
+    cis %75
+    d
+    cis
+    d
+    a8 a'\f g!
+    fis! fis fis %80
+    g g g
+    gis gis gis
+    a[ r d,]
+    cis a' cis,
+    d fis d %85
+    cis a' cis,
+    d fis d
+    cis a' cis,
+    d a' h
+    g a a, %90
+    d fis d
+    g, g' d
+    d cis d
+    g, a a
+    d fis d %95
+    g, g' d
+    d cis d
+    g a a,
+    d d16 fis a fis
+    d8 d'16 d, fis a %100
+    d8 d,16 fis a fis
+    d8 d'16 d, fis a
+    d8 d, r\fermata \bar "|." %103 finis
+  }
+}
