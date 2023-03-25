@@ -16,6 +16,8 @@ tempoQuidVideo = \tempoMarkup "[Tempo deest]"
 tempoViveDecus = \tempoMarkup "Allegro"
 tempoNunc = \tempoMarkup "[Tempo deest]"
 tempoSicut = \tempoMarkup "Allegretto"
+tempoGratae = \tempoMarkup "[Tempo deest]"
+  tempoGrataeB = \tempoMarkup "Andante"
 
 
 \include "notes/vl1.ly"

@@ -172,9 +172,57 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Aria" "Sicut nauta post procellam"
+  %   \addTocLabel "sicut"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     indent = 1.5\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SicutViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SicutViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SicutViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Galathea"
+  %           \new Voice = "Soli" { \dynamicUp \SicutSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \SicutSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \SicutOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SicutBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Aria" "Sicut nauta post procellam"
-    \addTocLabel "sicut"
+    \section "6" "Recitativo" "Gratæ adeste Sorores"
+    \addTocLabel "gratae"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -188,36 +236,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SicutViolinoI
+              \GrataeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SicutViolinoII
+              \GrataeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SicutViola
+            \GrataeViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Galathea"
-            \new Voice = "Soli" { \dynamicUp \SicutSoli }
+            \new Voice = "Soli" { \dynamicUp \GrataeSoli }
           }
-          \new Lyrics \lyricsto Soli \SicutSoliLyrics
+          \new Lyrics \lyricsto Soli \GrataeSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \SicutOrgano
+            \GrataeOrgano
           }
         >>
-        \new FiguredBass { \SicutBassFigures }
+        \new FiguredBass { \GrataeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

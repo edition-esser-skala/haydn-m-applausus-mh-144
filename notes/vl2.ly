@@ -550,3 +550,18 @@ SicutViolinoII = {
     d4 r \markDaCapo \bar "||" %199 finis
   }
 }
+
+GrataeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGratae
+    g'1\p
+    \tempoGrataeB g4\f r8 g f e d h16( d)
+    \appoggiatura d8 c4 r r2
+    a'1\p
+    d8\fE g, r d' c h a \once \slurDashed fis16( a) %5
+    g1\pE
+    a
+    r4 e fis r\fermata \bar "." %8 finis
+  }
+}

@@ -1141,3 +1141,29 @@ SicutBassFigures = \figuremode {
   <6 4>4 <5 _+>
   r2 %199 finis
 }
+
+GrataeOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoGratae
+    f1\p
+    \tempoGrataeB e4\f r8 e d c h g
+    c4 r r2
+    fis1\p
+    g4\f r8 h a g fis d %5
+    g1\pE
+    g
+    r4 a d, r\fermata \bar "|." %8 finis
+  }
+}
+
+GrataeBassFigures = \figuremode {
+  <4[!] 2>1
+  <6>4. q8 <7>16 <6> <7> <6> <7> <6> <8> <7>
+  \bo <[9] 4>8 \bc <[8] 3>2..
+  <6>1
+  r4. <6>8 <7>16 <6\\> \bo <[7 _]> <6> <7> <6> <8 _+> \bc <[7 _]> %5
+  r1
+  <4\+ 2>
+  r4 \bo <[_+]> \bc q2 %8 finis
+}

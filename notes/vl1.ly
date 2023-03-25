@@ -550,3 +550,18 @@ SicutViolinoI = {
     d4 r \markDaCapo \bar "||" %199 finis
   }
 }
+
+GrataeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGratae
+    <d h'>1\p
+    \tempoGrataeB c16(\f g') c-! c-! c c c c c( h) h( a) a( g) g( f)
+    \appoggiatura f8 e4 r r2
+    d'1\p
+    h16(\f d) g-! g-! g g g g g( fis) fis( e) e( d) d( c) %5
+    h1\pE
+    cis
+    r4 cis d r\fermata \bar "|." %8 finis
+  }
+}

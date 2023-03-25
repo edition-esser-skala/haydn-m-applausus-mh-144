@@ -539,3 +539,18 @@ SicutViola = {
     a4 r \markDaCapo \bar "||" %199 finis
 }
 }
+
+GrataeViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoGratae
+    g1\p
+    \tempoGrataeB c4\f r8 e d c h d
+    g,4 r r2
+    d'1\p
+    g,4\f r8 h' a g fis a %5
+    d,1\pE
+    e
+    r4 a, a r\fermata \bar "|." %8 finis
+  }
+}

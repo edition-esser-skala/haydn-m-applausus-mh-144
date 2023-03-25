@@ -619,3 +619,29 @@ SicutSoliLyrics = \lyricmode {
   so -- ci --
   at. %199 finis
 }
+
+GrataeSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoGratae
+    r4 h!8 h16 c d4 d8 e
+    \tempoGrataeB c c r4 r2
+    r c4. e8
+    d d r d d a c c16 d
+    h8 h r4 r2 %5
+    r4 r8 d h h a g
+    cis cis r g'16 e cis cis cis cis cis8 d
+    d a r4 r2\fermata \bar "|." %8 finis
+  }
+}
+
+GrataeSoliLyrics = \lyricmode {
+  Gra -- tae ad -- e -- ste So --
+  ro -- res,
+  at -- que
+  no -- bis ad dul -- ces jun -- gi -- te
+  vo -- ces, %5
+  ut di -- gnum tan -- ti
+  Pa -- tris no -- stro pro -- de -- at ab o -- re
+  me -- los. %8 finis
+}
