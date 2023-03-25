@@ -148,7 +148,7 @@
       system-system-spacing.basic-distance = #21
       system-system-spacing.minimum-distance = #21
       systems-per-page = #3
-      indent = 2\cm
+      indent = 1.5\cm
     }
     \score {
       <<

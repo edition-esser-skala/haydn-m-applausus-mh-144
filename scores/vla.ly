@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \SinfoniaOrgano
+          \set Staff.instrumentName = "Viola"
+          \SinfoniaViola
         }
       >>
     }
@@ -36,7 +36,7 @@
           }
           \new Lyrics \lyricsto Soli \QuidVideoSoliLyrics
         >>
-        \new Staff { \QuidVideoOrgano }
+        \new Staff { \QuidVideoViola }
       >>
     }
   }
@@ -45,36 +45,17 @@
     \addTocLabel "vivedecus"
     \score {
       <<
-        \new Staff { \ViveDecusOrgano }
+        \new Staff { \ViveDecusViola }
       >>
     }
-  }
-  \bookpart {
-    \section "4" "Recicativo" "Nunc Galathea"
-    \addTocLabel "nunc"
-    \paper {
-      systems-per-page = #3
-      indent = 2\cm
-    }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Galathea" "Damon" }
-            \new Voice = "Soli" { \dynamicUp \NuncSoli }
-          }
-          \new Lyrics \lyricsto Soli \NuncSoliLyrics
-        >>
-        \new Staff { \NuncOrgano }
-      >>
-    }
+    \tacet "section" "Nunc Galathea"
   }
   \bookpart {
     \section "5" "Aria" "Sicut nauta post procellam"
     \addTocLabel "sicut"
     \score {
       <<
-        \new Staff { \SicutOrgano }
+        \new Staff { \SicutViola }
       >>
     }
   }
@@ -94,7 +75,7 @@
           }
           \new Lyrics \lyricsto Soli \GrataeSoliLyrics
         >>
-        \new Staff { \GrataeOrgano }
+        \new Staff { \GrataeViola }
       >>
     }
   }
@@ -103,7 +84,7 @@
     \addTocLabel "exurge"
     \score {
       <<
-        \new Staff { \ExurgeOrgano }
+        \new Staff { \ExurgeViola }
       >>
     }
   }

@@ -1,43 +1,31 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
-\include "score_settings/one-staff.ly"
+\include "score_settings/coro.ly"
 
 \book {
-  \bookpart {
-    \section "1" "Sinfonia" "Allegro molto"
-    \addTocLabel "sinfonia"
-    \paper { indent = 2\cm }
-    \score {
-      <<
-        \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \SinfoniaOrgano
-        }
-        \new FiguredBass { \SinfoniaBassFigures }
-      >>
-    }
-  }
   \bookpart {
     \section "2" "Recitativo" "Quid video"
     \addTocLabel "quidvideo"
     \paper {
-      system-system-spacing.basic-distance = #16
-      system-system-spacing.minimum-distance = #16
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
       systems-per-page = #6
-      indent = 2\cm
+      indent = 1.5\cm
     }
     \score {
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Galathea" "Damon" }
             \new Voice = "Soli" { \dynamicUp \QuidVideoSoli }
           }
           \new Lyrics \lyricsto Soli \QuidVideoSoliLyrics
         >>
-        \new Staff { \QuidVideoOrgano }
+        \new Staff {
+          \set Staff.instrumentName = "Organo"
+          \QuidVideoOrgano
+        }
         \new FiguredBass { \QuidVideoBassFigures }
       >>
     }
@@ -45,8 +33,21 @@
   \bookpart {
     \section "3" "Aria" "Vive Decus Mæcenatum"
     \addTocLabel "vivedecus"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+      indent = 1.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Damon"
+            \new Voice = "Soli" { \dynamicUp \ViveDecusSoli }
+          }
+          \new Lyrics \lyricsto Soli \ViveDecusSoliLyrics
+        >>
         \new Staff { \ViveDecusOrgano }
         \new FiguredBass { \ViveDecusBassFigures }
       >>
@@ -56,8 +57,10 @@
     \section "4" "Recicativo" "Nunc Galathea"
     \addTocLabel "nunc"
     \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
       systems-per-page = #3
-      indent = 2\cm
+      indent = 1.5\cm
     }
     \score {
       <<
@@ -76,8 +79,21 @@
   \bookpart {
     \section "5" "Aria" "Sicut nauta post procellam"
     \addTocLabel "sicut"
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+      indent = 1.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Galathea"
+            \new Voice = "Soli" { \dynamicUp \SicutSoli }
+          }
+          \new Lyrics \lyricsto Soli \SicutSoliLyrics
+        >>
         \new Staff { \SicutOrgano }
         \new FiguredBass { \SicutBassFigures }
       >>
@@ -87,8 +103,10 @@
     \section "6" "Recitativo" "Gratæ adeste Sorores"
     \addTocLabel "gratae"
     \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
       systems-per-page = #2
-      indent = 2\cm
+      indent = 1.5\cm
     }
     \score {
       <<
@@ -109,6 +127,31 @@
     \addTocLabel "exurge"
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \ExurgeSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \ExurgeSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \ExurgeAlto }
+          }
+          \new Lyrics \lyricsto Alto \ExurgeAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \ExurgeTenore }
+          }
+          \new Lyrics \lyricsto Tenore \ExurgeTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \ExurgeBasso }
+          }
+          \new Lyrics \lyricsto Basso \ExurgeBassoLyrics
+        >>
         \new Staff { \ExurgeOrgano }
         \new FiguredBass { \ExurgeBassFigures }
       >>
