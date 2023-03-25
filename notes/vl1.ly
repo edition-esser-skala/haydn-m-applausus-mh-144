@@ -344,3 +344,209 @@ ViveDecusViolinoI = {
     a4 r r \markDaCapo \bar "||" %151 finis
   }
 }
+
+SicutViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSicut
+    f8.\fE c16 a'8. f16
+    c'( a) f( a) b( g) e'( c)
+    f( c) a( f) b( g) e'( c)
+    f( c) c8 r f
+    b16[ b, b8.]( e16) g( e) %5
+    b'[ b, b8.]( g'16) e( g)
+    b g e g b g e b
+    b8\trill a r c
+    d16[ b f8.]( b16) d b
+    \tuplet 3/2 8 { a b c } c8 r f %10
+    d16[ b f8.]( b16) d b
+    \tuplet 3/2 8 { a b c } c8 r16 f( e f)
+    d b a g fis( g) b( g)
+    \appoggiatura f e8 b''16 g \appoggiatura f e8 g16 b,
+    \appoggiatura b a8 f'16 c a f e f %15
+    c'8 c, r c'16-!\p b-!
+    \appoggiatura b a8-! a16-! d-! c-! b-! a-! g-!
+    \appoggiatura g \scriptOut f8-! f16-! b-! a-! g-! f-! e-!
+    \appoggiatura e d8 d16 e f e d c
+    \appoggiatura c b8 b b''16(\f g) b( e,) %20
+    f c d b a f g e
+    f' c d b a f c' e,
+    f8[ c] a r
+    f'8.\p c16 a'8. f16
+    c' a f a b g e' c %25
+    f c a f b g e' c
+    f c a c f c a c
+    d b f b d b f b
+    d b f b d b f b
+    d b f b d b f' d %30
+    d f d f c f c f
+    b, g d g b g d g
+    b g c, g' b g c, g'
+    b g c, g' b g c, g'
+    a f c f a\f f c' a %35
+    f'8[ r16 a,]-! g8-! h-!
+    c g'4\p e16 c
+    h4 c
+    f4. e8
+    h4 c8 e16 g %40
+    g a, a4 cis8
+    d r d cis
+    d r d c
+    c4\trill h16 d fis, a
+    g8 g g f %45
+    e4 r8 c'
+    g g g h
+    c g' r e
+    g, g g h
+    c c a' a %50
+    c, c h h
+    g'16( a g a) g( e c e)
+    g( a g a) g( f e d)
+    g( a g a) g( e c e)
+    g( a g a) g( f e d) %55
+    g( a g a) g( e c e)
+    f( g f g) f d h f
+    e8 g'16 g a a a a
+    e e e e d d d d
+    c8\f c, r g'' %60
+    a16[( f) c8.]( f16) a( f)
+    \tuplet 3/2 8 { e f g } g8 r c
+    a16[ f c8.]( f16) a f
+    \tuplet 3/2 8 { e f g } g8 r g16-!\p f-!
+    \appoggiatura f e8 e16-! a-! g-! f-! e-! d-! %65
+    \appoggiatura d c8 c16-! f-! e d c h
+    \appoggiatura h a8 a16 h c h a g
+    \appoggiatura g f8 f f'16(\f d) f( d)
+    e( c) a( a') g( c,) d( h)
+    c8[ g] c, r %70
+    g'\p g g g
+    as( f) g( es)
+    <d h'>16 q q q q q q q
+    <es c'>8 es'16\f h c g es c
+    <d h'>\p q q q q q q q %75
+    <es c'>8 es'16\f h c g es c
+    fis\p es' es es es es es es
+    g, d' d d d d d d
+    es, c' c c a c c c
+    d, c' b! a b b b b %80
+    c, b' b b b b b b
+    c, b' a g a b c a
+    f f' f f f f f f
+    b, f' f f b, e e e
+    b e e e e e e e %85
+    f, f' f f f e d c
+    cis cis cis cis d d d d
+    c,!8[ r16 c] b'-! a-! g-! f-!
+    \appoggiatura f e8[ r16 c] b'-! a-! g-! f-!
+    \appoggiatura f e8[ r16 c]\f e8-! g-! %90
+    \parOn c-\parenthesize-! b-! a-! \parOff g-\parenthesize-!
+    f8.\p c16 a'8. f16
+    c'( a) f( a) b( g) e'( c)
+    f c a f b g e' c
+    f c a c f c a c %95
+    d b f b d b f b
+    d b f b d b f b
+    d b f b d b f' d
+    d f d f c f c f
+    es c a c es c a c %100
+    es c f, c' es c f, c'
+    es c f, c' es c f es
+    es a, c es d(\f b) f'( d)
+    b'4 r8 d,\p
+    es( fis,) g16( a b h) %105
+    c4 r8 f!
+    c'( e,) f16( c) b'( e,)
+    f( c) c4 cis8
+    d16( e f e d8) c
+    b16( c d c b8) a %110
+    a16( f c' a) g(\f c) g'( h,)
+    c8 c\p c b
+    a4 r8 f'
+    c c c c
+    c4 r8 f %115
+    c c c c
+    c f4 es8
+    d d d d
+    d d d d
+    c c c c %120
+    c c c c
+    e! e e e
+    e e e e
+    f f, f f
+    f f e e %125
+    c'16( d c d) c( a f a)
+    c( d c d) c( b a g)
+    c( d c d) c( a f a)
+    c( d c d) c( b a g)
+    c( d c d) c( a f a) %130
+    b( c b c) b b' g e
+    f4 r8 f
+    d4 r8 b
+    a r a r
+    a'16 a a a a a a a %135
+    g\f g g g g g g g
+    f( g) f( g) f( es) c( es)
+    d es d es d c a c
+    b c b c b d g, b
+    a( b) a-! f'-! f( g) f-! a-! %140
+    a4 r\fermata
+    f,8-! a-! c-! f-!
+    d16([ b) f8.]( b16) d b
+    \tuplet 3/2 8 { a b c } c8 r f
+    d16[ b f8.]( b16) d b %145
+    \tuplet 3/2 8 { a b c } c8 r16 f( e f)
+    d( b) a( g) fis( g) b( g)
+    \appoggiatura f8 e4 r8 c'16-!\p b-!
+    \appoggiatura b a8 a16-! d-! c-! b-! a-! g-!
+    \appoggiatura g f8 f16 b a g f e %150
+    \appoggiatura e d8 d16 e f e d c
+    \appoggiatura c b8 b b''16(\f g) b( e,)
+    f c d b a f g e
+    f' c d b a f c' e,
+    f8[ c] a r\fermata %155
+    a'4\p a
+    b8 a a a
+    a'4.\f f8\p
+    f e cis-!\f a-!
+    e4\p e %160
+    f8 e e e
+    e4 g'
+    f8 d\f a f
+    d f'4\p e8~
+    e d4 c!8~ %165
+    c h( a gis)
+    a a'16 a a a a a
+    a8 b!( a) gis
+    a a f f
+    c c h h %170
+    a a' e( f)
+    e a, e( f)
+    e[ r16 b'!]\f a g f e
+    d(\p a') a-! a-! a a a a
+    b8-! a-! a-! a-! %175
+    a'4.\f f8\p
+    f e e-!\f cis-!
+    a16( e) e\p e e e e e
+    f8 e e e
+    e4 g' %180
+    f8 a16 f d8 d~
+    d b4 d8~
+    d a4 d8~
+    d cis e g,
+    f d' d d %185
+    d d cis cis
+    r16 d, f a d f a d,
+    es8 es4 d8
+    cis g'4 f8~
+    f es4 d8 %190
+    cis g'4 f8~
+    f es4 d8
+    cis\f b' a( g)
+    f\p r e! r
+    d16( f e d) cis( d cis d) %195
+    b4 r8. b16
+    a4( b)
+    f8 r e r
+    d4 r \markDaCapo \bar "||" %199 finis
+  }
+}

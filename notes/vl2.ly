@@ -344,3 +344,209 @@ ViveDecusViolinoII = {
     a4 r r \markDaCapo \bar "||" %151 finis
   }
 }
+
+SicutViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSicut
+    f8.\fE c16 a'8. f16
+    c'( a) f( a) b( g) e'( c)
+    f( c) a( f) b( g) e'( c)
+    f( c) a( c) f( c) a( c)
+    c( g) e( g) c g e g %5
+    c g c, g' c g c, e
+    g e c e g e c g'
+    f c f a f c a f'
+    f d b d f d b d
+    f c a c f c a f' %10
+    f d b d f d b d
+    f c a c f c a c
+    d( b') a( g) \slurDashed fis( g) b( g) \slurSolid
+    \appoggiatura f e8 b''16 g \appoggiatura f e8 g16 b,
+    \appoggiatura b a8 f'16 c a f e f %15
+    c'8 c, r4
+    c'8\p r c, r
+    a' r a, r
+    f'' r f, r
+    e r b''16(\f g) b( e,) %20
+    f c d b a f g e
+    f' c d b a f c' e,
+    f8[ c] a r
+    a16\p c a c f c f c
+    a' f a f b g e' c %25
+    f c a f b g e' c
+    f8 c a f
+    b,2~
+    b
+    b4. b'8 %30
+    b16 d b d a c a c
+    b8 r r4
+    c,2
+    e
+    f16 c a f' a\f f c' a %35
+    f'8[ r16 c,]-! c8-! f-!
+    e r r g\p
+    g2
+    d'4. c8
+    g4. e8 %40
+    c a' a g
+    a r a b!
+    a r f e
+    e4\trill d8 c
+    d d d d %45
+    c4 r8 e
+    g e d g
+    g e r g
+    g e d g
+    g g'4 f8 %50
+    e e d d
+    c2
+    d
+    c
+    d %55
+    c
+    h
+    c8 c16 c c c c c
+    c c c c h h h h
+    c(\f g) c( e) c( g) e( c') %60
+    c( a) f( a) c( a) f( a)
+    c g e g c g e c'
+    c a f a c a f a
+    c g e g c(\p e) d( h)
+    g'8 r g, r %65
+    e' r e, r
+    c' r c, r
+    h r d'16(\f h) d( h)
+    \slurDashed c( e,) a( f') e( e,) f( d) \slurSolid
+    c'8[ g] c, r %70
+    es\p es es es
+    f( d) es( c)
+    as'16 as as as as as as as
+    g8 es'16\f h c g es c
+    as'\p as as as as as as as %75
+    g8 es'16\f h c g es c
+    a!\p fis' fis fis fis fis fis fis
+    g, g' g g g g g g
+    c, a' a a fis a a a
+    d, a' g fis g g g g %80
+    c, g' g g g g g g
+    c, g' f e f g a f
+    c c' c c c c c c
+    g b b b g b b b
+    g b b b b b b b %85
+    f a a a a c b a
+    a a a a g g f f
+    c8[ r16 c] g'-! f-! e-! d-!
+    \appoggiatura d c8[ r16 c] g'-! f-! e-! d-!
+    \appoggiatura d c8[ r16 c]\f e8-! g-! %90
+    \parOn c-\parenthesize-! b-! a-! \parOff g-\parenthesize-!
+    f16(\p c) a( c) \slurDashed f( c) f( c) \slurSolid
+    a'( f) a( f) b( g) e'( c)
+    f c a f b g e' c
+    f8 c a f %95
+    b,2~
+    b
+    b4. b'8
+    b16 d b d a c a c
+    a8 r r4 %100
+    c,2
+    a
+    b8 r f'16(\f d) b'( f)
+    d4 r
+    r8 a\p d g~ %105
+    g f! r c'
+    e,( g) c-! b-!
+    a a4 a8
+    b16( c d c b8) a
+    g16( a b a g8) f %110
+    f a16( f) e8-!\f f-!
+    g g\p g g
+    f4 r8 a
+    f a b g
+    f4 r8 a %115
+    f a b g
+    f f4 f8
+    f f f f
+    f f f f
+    f f f f %120
+    f f f f
+    b b b b
+    b b b b
+    a c d d
+    a a g g %125
+    f2
+    g
+    f
+    g
+    f %130
+    e
+    f4 r8 c'
+    b4 r8 g
+    f r f r
+    f'16 f f f f f f f %135
+    e\f e e e e e e e
+    f8 r c r
+    b r a r
+    g r g r
+    f16( g) f-! a-! a( b) a-! f'-! %140
+    f4 r\fermata
+    f,16( c) f( a) f( c) a( f')
+    f d b d f d b d
+    f c a c f c a f'
+    f d b d f d b d %145
+    f c a c f c a c
+    b( d) c( b) a( b) d( b)
+    \appoggiatura a8 g4 r
+    c'8\p r c, r
+    a' r a, r %150
+    f'' r f, r
+    e r b''16(\f g) b( e,)
+    f c d b a f g e
+    f' c d b a f c' e,
+    f8[ c] a r\fermata %155
+    f'4\p f
+    g8 f f f
+    f'4.\f d8\p
+    d cis \parOn a\f-\parenthesize-! \parOff e-\parenthesize-!
+    cis4\p cis %160
+    d8 cis cis cis
+    cis4 e'
+    d8 d\f a f
+    d4 r
+    gis(\p a) %165
+    f e8 d
+    e a16 a a a a a
+    f8 d( e) f
+    e a a a
+    a a gis gis %170
+    a r cis( d)
+    cis r cis,( d)
+    cis[ r16 b'!]\f a g f e
+    d(\p f) f-! f-! f f f f
+    g8-! f-! f-! f-! %175
+    f'4.\f d8\p
+    d cis cis-!\f a-!
+    e16( cis) cis\p cis cis cis cis cis
+    d8 cis cis cis
+    cis4 e' %180
+    d8 f, a f
+    b( g) d( b')
+    a( f) d( a')
+    g g4 e8
+    d f a b %185
+    f f e e
+    d4 r8 d
+    b'4^\tenuto a
+    g8( cis) d( a)
+    b4 a %190
+    g8( cis) d( a)
+    b4 a
+    g8(\f cis) d( e)
+    d\p r cis r
+    d4 r %195
+    d, r
+    d2
+    d8 r cis r
+    d4 r \markDaCapo \bar "||" %199 finis
+  }
+}

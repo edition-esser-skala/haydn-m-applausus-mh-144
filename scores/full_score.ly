@@ -141,35 +141,83 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Recicativo" "Nunc Galathea"
+  %   \addTocLabel "nunc"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #3
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Galathea" "Damon" }
+  %           \new Voice = "Soli" { \dynamicUp \NuncSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \NuncSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \NuncOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \NuncBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Recicativo" "Nunc Galathea"
-    \addTocLabel "nunc"
+    \section "5" "Aria" "Sicut nauta post procellam"
+    \addTocLabel "sicut"
     \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #3
-      indent = 2\cm
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+      indent = 1.5\cm
     }
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SicutViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SicutViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \SicutViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Galathea" "Damon" }
-            \new Voice = "Soli" { \dynamicUp \NuncSoli }
+            \set Staff.instrumentName = "Galathea"
+            \new Voice = "Soli" { \dynamicUp \SicutSoli }
           }
-          \new Lyrics \lyricsto Soli \NuncSoliLyrics
+          \new Lyrics \lyricsto Soli \SicutSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \NuncOrgano
+            \SicutOrgano
           }
         >>
-        \new FiguredBass { \NuncBassFigures }
+        \new FiguredBass { \SicutBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

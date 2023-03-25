@@ -340,3 +340,202 @@ ViveDecusViola = {
     a r r \markDaCapo \bar "||" %151 finis
   }
 }
+
+SicutViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key f \major \time 2/4 \tempoSicut
+    a4\fE r
+    r8 c c g'
+    f c c g'
+    f f a f
+    g b g b %5
+    e, g e g
+    c,4 r8 c
+    c a c f
+    b r b, r
+    f' f a f %10
+    b r b, r
+    f' f a f
+    b, d d d
+    c e c e
+    f a f a %15
+    c c, r g'\p
+    f r e r
+    d r c r
+    b r a r
+    b r c\f r %20
+    f f c c
+    f f c b
+    a[ c] f r
+    f,2~\p
+    f8 c' c g' %25
+    f a c, g'
+    f4 r
+    f2~
+    f
+    f~ %30
+    f
+    R
+    c~
+    c
+    c8 c c\f c %35
+    a[ r16 f'] e8 d
+    c4 r
+    d\p e
+    g2
+    d4 e %40
+    f8 f f e
+    f r f e
+    f r a, a
+    g4 r
+    g8 g g g %45
+    g4 r8 g'
+    c,4 d
+    e r8 c
+    c4 d
+    e r %50
+    R2
+    e
+    f
+    e
+    f %55
+    e
+    d
+    c4 r
+    R2
+    e8\f e g c %60
+    f, r f, r
+    c' c e c
+    f r f, r
+    c' c\p e g
+    c r h r %65
+    a r g r
+    f r e r
+    d r g,\fE r
+    c f g g
+    c[ g] c, r %70
+    R2*2
+    f16\p f f f f f f f
+    g8 es'16\f h c g es c
+    f\p f f f f f f f %75
+    g8 es'16\f h c g es c
+    es8\p r c r
+    b! r b r
+    c r d r
+    g r d d %80
+    g r e! r
+    f r f r
+    a, r a r
+    g r g r
+    c r c r %85
+    f r f r
+    b, r b h
+    c,2
+    c'
+    c,8. c'16\f e8-! g-! %90
+    c-! b-! a-! g-!
+    f4 f,~\p
+    f8 c' c g'
+    f a c, g'
+    f4 r %95
+    f2~
+    f
+    f~
+    f
+    R %100
+    f,~
+    f
+    b8 r b\f b
+    b4 r
+    R2*2 %106
+    r4 f'8\p g
+    a4 r8 f~
+    f d4 d8~
+    d d4 d8 %110
+    c4 r
+    r8 c\p c c
+    c4 r
+    r8 f g e
+    f4 r %115
+    r8 f g e
+    f c4 c8
+    b b' b b
+    b b b b
+    a^\critnote a a a %120
+    a a a a
+    g g g g
+    g g g g
+    f4 r
+    R2 %125
+    a,
+    b
+    a
+    b
+    a %130
+    g
+    a4 r8 f'
+    f4 r8 d
+    c r c r
+    c c c c %135
+    c\f c b b
+    a r f' r
+    f r d r
+    d r c r
+    c c d d %140
+    c4 r\fermata
+    a r8 f'
+    b r b, r
+    f' f a f
+    b r b, r %145
+    f' f a f
+    b, b b g
+    c c' r4
+    f,8\p r e r
+    d r c r %150
+    b r a r
+    g r c\f r
+    f f c c
+    f f c b
+    a[ c] f r\fermata %155
+    d4\p f
+    e8 a, r4
+    R2
+    r4 e'8\f cis
+    a4 r %160
+    R2
+    a\p
+    a4 a'8\f f
+    d4 r
+    R2*6 %170
+    r4 a'8(\p gis)
+    a r a,( gis)
+    a[ r16 b'!]\f a g f e
+    d8\p d f f
+    e a, r4 %175
+    R2
+    r4 a'8\f e
+    a,4 r
+    R2
+    a\p %180
+    a4 r
+    g'2
+    f
+    e4 a,
+    a r %185
+    R2
+    r4 r8 f'
+    g4^\tenuto f
+    e! d
+    g f %190
+    e! d
+    g f
+    e! f8 g
+    a r a r
+    b4 r %195
+    g, r
+    f( g)
+    a8 r a r
+    a4 r \markDaCapo \bar "||" %199 finis
+}
+}

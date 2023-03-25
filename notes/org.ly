@@ -733,3 +733,411 @@ NuncBassFigures = \figuremode {
   <6[-]>2. <_!>4
   r1 %10 finis
 }
+
+SicutOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoSicut
+    f,4\fE r
+    r8 f' e b'
+    a f e b'
+    a f a f
+    g b g b %5
+    e, g e g
+    c, e c c'
+    f, f a f
+    b r b, r
+    f' f a f %10
+    b r b, r
+    f' f a f
+    b, b b g
+    c e c e
+    f a f a %15
+    c c, r e\p
+    f r e r
+    d r c r
+    b r a r
+    g r c\f r %20
+    a b c b
+    a b c c
+    f[ c] f, r
+    R2
+    r8 f'\p e b' %25
+    a f e b'
+    a f f f
+    f4 r
+    f r
+    f r8 f %30
+    f f f f
+    g4 r
+    c, r
+    c r8 c
+    f f f\f f %35
+    f[ r16 f] e8 d
+    c c\p e c
+    g' f e c
+    h h c c
+    g' f e c %40
+    f f f e
+    f r f g
+    f r f fis
+    g g, g a
+    h h h h %45
+    c4 r8 c
+    e c h f'
+    e c r c
+    e c h f'
+    e e f f %50
+    g g g g
+    c, e g c
+    h g r g
+    c, e g c
+    h g r g %55
+    c, e g c
+    g g, r g
+    c e f fis
+    g g g, g
+    c\f c e c %60
+    f r f, r
+    c' c e c
+    f r f, r
+    c' c\p e g
+    c r h r %65
+    a r g r
+    f r e r
+    d r g,\f r
+    c f g g
+    c[ g] c, r %70
+    c'\p c c c
+    c c c c
+    c c c c
+    c es16\f h c g es c
+    c'8\p c c c %75
+    c es16\f h c g es c'
+    c,8\p r c r
+    b! r b r
+    c r d r
+    g r g f! %80
+    e! r e r
+    f r f r
+    a, r a r
+    g r g r
+    c r c r %85
+    f r f r
+    b, r b h
+    c r r4
+    c8 r r4
+    c8[ r16 c]\f e8-! g-! %90
+    c-! b-! a-! g-!
+    f4 r
+    r8 f\p e b'
+    a f e b'
+    a f f f %95
+    f4 r
+    f r
+    f r8 f
+    f f f f
+    f4 r %100
+    f r
+    f r8 f
+    b, b b\f b
+    b b'\p b b
+    c c b g %105
+    a a a a
+    b b a g
+    f f f f
+    b, r b b
+    b r b h %110
+    c r c\f d
+    e e\p e e
+    f4 r8 f
+    a f e b'
+    a4 r8 f %115
+    a f e b'
+    a a a a
+    b b b b
+    b b b b
+    a a a a %120
+    a a a a
+    g g g g
+    c, c c c
+    f a, b h
+    c c c c %125
+    f, a c f
+    e c r c
+    f, a c f
+    e c r c
+    f, a c f %130
+    c c' r c,
+    f4 r8 a,
+    b4 r8 b
+    c r c r
+    c c c c %135
+    c\f c c c
+    f r a r
+    b r fis r
+    g r e! r
+    f! f h, h %140
+    c2\fermata
+    f8 f a f
+    b r b, r
+    f' f a f
+    b r b, r %145
+    f' f a f
+    b, b b g
+    c c' r4
+    f,8\p r e r
+    d r c r %150
+    b r a r
+    g r c\f r
+    a b c b
+    a b c c
+    f[ c] f, r\fermata %155
+    d''4\p d
+    cis8-! d-! r4
+    r8 d d, d'
+    a4 r
+    a a %160
+    gis8-! a-! r4
+    r8 a a, cis
+    d d'\f a f
+    d4(\p c!)
+    h( a) %165
+    d( c8 h)
+    c4 r8 c
+    d4( c8 h)
+    c c d d
+    e e e e %170
+    a, r a'( gis)
+    a r a,( gis)
+    a[ r16 b'!]\f a g f e
+    d8\p d' d d
+    cis d r4 %175
+    r8 d d, d'
+    a a, r4
+    a8 a' a a
+    gis a r4
+    r8 a a, cis %180
+    d d f d
+    g r g r
+    f r f r
+    e r cis r
+    d d f, g %185
+    a a a a
+    d4 r8 f
+    g4^\tenuto f
+    e! d
+    g f %190
+    e! d
+    g f
+    e! f8 g
+    a r a r
+    b4 r %195
+    g, r
+    f( g)
+    a8 r a r
+    d,4 r \markDaCapo \bar "||" %199 finis
+  }
+}
+
+SicutBassFigures = \figuremode {
+  r2
+  r4 <6 5>8 <2>
+  <6>4 <6 5>8 <2>
+  <6>2
+  <6> %5
+  <6 5>
+  <7>
+  <4>8 <3>4.
+  r2
+  r %10
+  r
+  r
+  <5>8 <6>4.
+  <7>2
+  r %15
+  r4. <6>8
+  r4 q
+  r q
+  r q
+  q <7> %20
+  <6> <6 4>8 q
+  <6>4 <6 4>8 <5 3>
+  r2
+  r
+  r4 <6 5>8 <2> %25
+  <6>4 <6 5>8 <2>
+  <6>2
+  <6 4>
+  <\t \t>
+  q4. q8 %30
+  q4 <5 3>
+  r2
+  <7 4>4 <\t 3>
+  <\t \t>4. q8
+  r2 %35
+  r4 <6>8 <6!>
+  r2
+  <_!>8 <\t> <6>4
+  <6 5> <9 4>8 <8 3>
+  <_!> <\t> <6>4 %40
+  <9>8 <8>4 <6\\>8
+  <6>4 q8 <4\+ _->
+  <6>4 q8 <7 5!>
+  <6 4>4 <5 _!>8 <6\\>
+  <6>4. <5!>8 %45
+  r2
+  <6>4 <6 5>8 <4! 2>
+  <6>2
+  <6>4 <6 5>8 <4! 2>
+  <6>4 <9 5>8 <8 6> %50
+  <6 4>4 <5 _!>
+  r2
+  <6 5>4. \once \bassFigureExtendersOn q8
+  r2
+  <6 5>4. \once \bassFigureExtendersOn q8 %55
+  r2
+  <7 _!>4. \once \bassFigureExtendersOn q8
+  r <6>4 <6 5>8
+  <6 4>4 <5 _!>
+  r2 %60
+  r
+  r
+  r
+  r4 <6>8 <_!>
+  r4 <6> %65
+  r <6 _!>
+  r <6>
+  <6!> <7 _!>
+  r <6 4>8 <5 _!>
+  r2 %70
+  <_->
+  <7! 6- 4>4 <8 _->
+  <7! 6- 4>2
+  <8 _->
+  <7! 6- 4> %75
+  <8 _->
+  <6! 4\+ _->4 <\t \t \t>
+  <6> <\t>
+  <6 5 _-> <7 _+>
+  <9 4> <8 3>8 <\t \t> %80
+  <6 5>4 <\t \t>
+  <9 4>8 <8 3>4.
+  <6>4 <\t>
+  <7> <6>
+  <7> <\t> %85
+  r2
+  <7 2\+>4 <6 3>8 <5 \t>
+  <6 4>4 <5 3>
+  r2
+  r %90
+  r
+  r
+  r4 <6 5>8 <2>
+  <6>4 <6 5>8 <2>
+  <6>2 %95
+  <6 4>
+  <\t \t>
+  q4. q8
+  q4 <5 3>
+  <7->2 %100
+  <7- 4>4 <\t 3>
+  <\t \t>4. q8
+  <9 4->4 <8 3>
+  r2
+  <4\+ _->4 <6> %105
+  <7>8 <6!>4.
+  <4! 2>4 <6>8 q
+  <5>4. <5\+>8
+  r4 <10 8>8 <9 7>
+  <8 6>4 <\t \t>8 <7 5>8 %110
+  <6 4>4 <5 3>8 <6!>
+  <6>4. <5->8
+  r2
+  <6>4 <6 5>8 <2>
+  <6>2 %115
+  <6>4 <6 5>8 <2>
+  <6>4. <5->8
+  r2
+  r
+  <6> %120
+  <\t>
+  <6>
+  <7>
+  r8 <6>4 <6 5>8
+  <6 4>4 <5 3> %125
+  r2
+  <6 5>4. \once \bassFigureExtendersOn q8
+  r2
+  <6 5>4. \once \bassFigureExtendersOn q8
+  r2 %130
+  <7>4. \once \bassFigureExtendersOn q8
+  r4. <6>8
+  r4. <6>8
+  <6 4>4 <\t \t>
+  q2 %135
+  <5 3>
+  r4 <6 5->
+  r <6 5>
+  r <7>
+  r <7>4 %140
+  <6 4> <5 3>
+  r2
+  r
+  r
+  r %145
+  r
+  <5>8 <6>4.
+  <6 4>8 <5 3>4.
+  r4 <6>
+  r q %150
+  r q
+  q <7>
+  <6> <6 4>8 q
+  <6>4 <6 4>8 <5 3>
+  r2 %155
+  r
+  <7>
+  r
+  <6 4>8 <5 _+>4.
+  <\t \t>2 %160
+  <7 _!>8 <5 _+>4.
+  r8 <8 _+> <7 \t> <6 5>
+  r <\l>4 \once \bassFigureExtendersOn q8
+  r4 <6 4>8 <\t 3>
+  <6\\ 4> <\t 3> <4> <3> %165
+  <7> <6!> <6> <6\\>
+  <6>4. <\t>8
+  <5>8 <6-> <6> <6\\ 5>
+  <6>2
+  <6 4>4 <5! _+> %170
+  r4 <_+>8 <7 _!>
+  r4 <_+>8 <7 _!>
+  <_+>2
+  r
+  <7-> %175
+  r2
+  <6 4>8 <5 _+>4.
+  <_+>2
+  <7 _!>8 <_+>4.
+  r8 <8 _+> <7 \t> <6 5> %180
+  r4 <6>
+  r2
+  <6>4 <\t>
+  <7>8 <6\\> <6 5>4
+  r <6> %185
+  <6 4> <5 _+>
+  r4. <6>8
+  <6->4 <7->8 <6>
+  <6\\>4 <4>8 <3>
+  <7> <6-> <7-> <6> %190
+  <6\\>4 <4>8 <3>
+  <7> <6-> <7-> <6>
+  <6\\ 5->4 <6>8 q
+  <6 4>4 <5 _+>
+  <5>2 %195
+  r
+  <6>
+  <6 4>4 <5 _+>
+  r2 %199 finis
+}
