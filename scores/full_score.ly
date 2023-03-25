@@ -10,10 +10,10 @@
     \paper {
       system-system-spacing.basic-distance = #22
       system-system-spacing.minimum-distance = #22
-      % systems-per-page = #3
+      systems-per-page = #3
       indent = 3\cm
     }
-    \score { %\articulate
+    \score {
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -42,7 +42,7 @@
         \new FiguredBass { \SinfoniaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }
