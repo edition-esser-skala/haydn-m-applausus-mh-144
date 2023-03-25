@@ -23,8 +23,8 @@
     \section "2" "Recitativo" "Quid video"
     \addTocLabel "quidvideo"
     \paper {
-      system-system-spacing.basic-distance = #16
-      system-system-spacing.minimum-distance = #16
+      system-system-spacing.basic-distance = #15.5
+      system-system-spacing.minimum-distance = #15.5
       systems-per-page = #6
       indent = 2\cm
     }
